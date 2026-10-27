@@ -82,7 +82,8 @@ print("Client says:", data)
 # Send response to client
 message = "Hello Client, message received!"
 conn.send(message.encode())
-
+```
+```
 Client Code:
 
 import socket
